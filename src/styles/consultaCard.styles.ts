@@ -65,11 +65,11 @@ export const styles = StyleSheet.create({
     marginBottom: 12,
   },
   mensagem: {
-    backgroundColor: "#b2fdde",
+    backgroundColor: "#6eff7a",
     padding: 16,
     borderRadius: 8,
     borderLeftWidth: 4,
-    borderLeftColor: "#008d8d",
+    borderLeftColor: "#00be10",
   },
   mensagemCancelada: {
     backgroundColor: "#ff9797",
