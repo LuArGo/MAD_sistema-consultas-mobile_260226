@@ -48,11 +48,12 @@ export default function Home({ navigation }: any) {
 
         {consultas.length === 0 ? (
           <View style={{ padding: 20, alignItems: "center" }}>
-            <Text style={{ color: "#666", marginBottom: 20 }}>
+            <Text style={{ color: "#b2fdde", marginBottom: 20 }}>
               Nenhuma consulta agendada ainda
             </Text>
             <Button
               title="Ir para Admin"
+              color="#00a30e"
               onPress={() => navigation.navigate("Admin")}
             />
           </View>
